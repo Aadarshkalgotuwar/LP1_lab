@@ -1,0 +1,20 @@
+pvgcoen-3@pvgcoen3-ThinkCentre-M700:~/AA$ javac MACRO.java
+pvgcoen-3@pvgcoen3-ThinkCentre-M700:~/AA$ java MACRO
+*********PASS-1 MACROPROCESSOR***********
+MACRO NAME TABLE (MNT)
+i macro loc
+1 INCR 1
+2 PVG 5
+ARGUMENT LIST ARRAY(ALA) for Pass1
+0 &ARG3
+1 &ARG2
+MACRO DEFINITION TABLE (MDT)
+INCR &ARG3 &ARG2
+ADD AREG &ARG1
+MOVER BREG &ARG1
+MEND
+PVG &ARG2 &ARG1
+SUB AREG #1
+MOVER CREG & ARG1
+MEND
+*/
